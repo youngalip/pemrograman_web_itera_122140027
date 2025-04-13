@@ -18,15 +18,17 @@ Pengguna dapat menambahkan, mengedit, dan menghapus data tabungan, lalu menyimpa
 
 ---
 
-⚙️ Fitur ES6+ yang Diimplementasikan
-Fitur ES6+	Implementasi di Aplikasi
-let & const	Digunakan untuk semua deklarasi variabel
-Arrow Function	✅ render, renderPagination, updateTotal, dan event handler lainnya
-Template Literals	Digunakan untuk .innerHTML saat merender list tabungan
-Async/Await	Dipakai saat menyimpan data edit (simulasi proses asinkron)
-Class	class Tabungan sebagai struktur data utama
-Modules (import/export)	Memisahkan file main.js dan app.js dengan sintaks ES6 module
-Array Methods	Menggunakan forEach, reduce, find, filter, slice, reverse
+## ⚙️ Fitur ES6+ yang Diimplementasikan
+
+| Fitur ES6+             | Implementasi di Aplikasi                                                           |
+|------------------------|------------------------------------------------------------------------------------|
+| `let` & `const`        | Digunakan untuk semua deklarasi variabel                                           |
+| **Arrow Function**     | ✅ Digunakan di fungsi `render`, `renderPagination`, `updateTotal`, dan lainnya     |
+| **Template Literals**  | Digunakan untuk `.innerHTML` saat merender list tabungan                          |
+| **Async/Await**        | Dipakai saat menyimpan data edit (simulasi proses asinkron)                        |
+| **Class**              | `class Tabungan` digunakan sebagai struktur data tabungan                         |
+| **Modules**            | File `main.js` dan `app.js` dipisah menggunakan sintaks `import/export` ES6        |
+| **Array Methods**      | Menggunakan `forEach`, `reduce`, `find`, `filter`, `slice`, dan `reverse`         |
 
 ---
 

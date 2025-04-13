@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catatan Penabungan</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-50 min-h-screen p-6">
+  <div class="max-w-2xl mx-auto bg-white shadow-md rounded-lg p-6 border border-yellow-300">
+    <h1 class="text-3xl font-bold text-yellow-600 text-center mb-6">Catatan Penabungan Uang</h1>
+
+    <!-- Form Tambah Tabungan -->
+    <form id="formTabungan" class="space-y-4">
+      <input type="text" id="Kegiatan" placeholder="Kegiatan / Keterangan" required class="w-full border border-yellow-300 p-2 rounded" />
+      <input type="number" id="jumlah" placeholder="Jumlah Tabungan (Rp)" required class="w-full border border-yellow-300 p-2 rounded" />
+      <input type="date" id="tanggal" required class="w-full border border-yellow-300 p-2 rounded" />
+      <input type="text" id="Catatan" placeholder="Catatan (misal: untuk beli ps 5)" class="w-full border border-yellow-300 p-2 rounded" />
+      <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded w-full">Tambah Tabungan</button>
+    </form>
+
+    <!-- Daftar Tabungan -->
+    <h2 class="text-xl font-semibold mt-8 mb-4 text-yellow-700">Riwayat Penabungan</h2>
+    <ul id="listTabungan" class="space-y-3"></ul>
+
+    <!-- Total -->
+    <div id="totalTabungan" class="mt-6 font-bold text-lg text-right text-yellow-700">
+      Total: Rp 0
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

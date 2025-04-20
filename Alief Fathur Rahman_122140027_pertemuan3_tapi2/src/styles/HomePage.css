@@ -1,0 +1,33 @@
+.home-container {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 60px; /* biar tidak ketimpa navbar jika fixed */
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .home-subtitle {
+    margin-top: 16px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .home-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #2563eb; /* biru */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #1e40af; /* lebih gelap saat hover */
+  }
+  
